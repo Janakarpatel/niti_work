@@ -5,7 +5,7 @@ import time
 
 app = Flask(__name__)
 
-capture_dir = os.path.join('/root', 'captures')
+capture_dir = os.path.join('captures')
 
 # Dictionary to store packet capture statuses
 capture_statuses = {}
